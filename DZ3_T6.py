@@ -25,7 +25,7 @@ def visualize_directory(directory, prefix=""):
 
 
 if len(sys.argv) != 2:
-    print(Fore.RED + "Використання: python <шлях до файлу hw03.py> <шлях до директорії>")
+    print(Fore.RED + "Використання: python <шлях до файлу DZ3_T6.py> <шлях до директорії>")
     sys.exit(1)
 
 target = Path(sys.argv[1])
